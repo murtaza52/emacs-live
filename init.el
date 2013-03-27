@@ -202,3 +202,6 @@
 
 (if (not live-disable-zone)
     (add-hook 'term-setup-hook 'zone))
+
+(live-add-packs '(~/.live-packs/misc))
+(live-add-packs '(~/.live-packs/pckg-mngr))
